@@ -5,6 +5,7 @@
       "npm:@atproto/api": "npm:@atproto/api@0.12.8",
       "npm:preact": "npm:preact@10.22.0",
       "npm:preact-render-to-string": "npm:preact-render-to-string@6.5.5_preact@10.22.0",
+      "npm:preact@10.22.0": "npm:preact@10.22.0",
       "npm:sanitize-html": "npm:sanitize-html@2.13.0"
     },
     "npm": {

@@ -1,17 +1,10 @@
 {
   "tasks": {
-    "dev": "deno run -A --watch main.tsx"
+    "dev": "deno task clean && deno run --watch -A main.ts",
+    "clean": "deno fmt && deno lint"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "https://esm.sh/preact@10.22.0"
-  },
-  "deploy": {
-    "project": "htmlsky",
-    "exclude": [
-      "**/node_modules"
-    ],
-    "include": [],
-    "entrypoint": "main.tsx"
+    "jsxImportSource": "npm:preact@10.22.0"
   }
 }
